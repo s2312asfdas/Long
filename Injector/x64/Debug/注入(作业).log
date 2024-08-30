@@ -1,0 +1,63 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(注入(作业).vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  ErrorHelper.cpp
+  FileHelper.cpp
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\FileHelper.cpp(118,8): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\FileHelper.cpp(155,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\FileHelper.cpp(232,2): warning C4102: “Exit”: 未引用的标签
+  MemoryHelper.cpp
+  ObjectHelper.cpp
+  ProcessHelper.cpp
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(90,94): warning C4311: “类型强制转换”: 从“HANDLE”到“DWORD”的指针截断
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(90,94): warning C4302: “类型强制转换”: 从“HANDLE”到“DWORD”截断
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(354,5): warning C4244: “参数”: 从“SIZE_T”转换到“ULONG”，可能丢失数据
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(475,11): warning C4244: “初始化”: 从“ULONG_PTR”转换到“int”，可能丢失数据
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(562,11): warning C4244: “初始化”: 从“ULONG_PTR”转换到“int”，可能丢失数据
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(697,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(700,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(703,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(704,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(717,8): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(726,8): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(741,6): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(743,10): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(746,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(747,7): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(767,8): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(815,6): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(816,10): warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _wcsicmp. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(819,7): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(820,7): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(832,8): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(841,8): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(854,6): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(856,10): warning C4996: 'wcsicmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _wcsicmp. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(859,7): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(860,7): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ProcessHelper.cpp(880,8): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  StringHelper.cpp
+  SystemHelper.cpp
+  ThreadHelper.cpp
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ThreadHelper.cpp(73,88): warning C4311: “类型强制转换”: 从“HANDLE”到“DWORD”的指针截断
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ThreadHelper.cpp(73,88): warning C4302: “类型强制转换”: 从“HANDLE”到“DWORD”截断
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ThreadHelper.cpp(170,5): warning C4244: “参数”: 从“SIZE_T”转换到“ULONG”，可能丢失数据
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\ThreadHelper.cpp(201,15): warning C4018: “<”: 有符号/无符号不匹配
+  _tmain.cpp
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\RegistryHelper.hpp(45,108): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\CreateRemoteThreadHelper.hpp(91,61): warning C4267: “=”: 从“size_t”转换到“ULONG”，可能丢失数据
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\CreateRemoteThreadHelper.hpp(125,14): warning C4477: “wprintf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“ULONG_PTR”
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\SetWindowHookExHelper.hpp(103,104): warning C4311: “类型强制转换”: 从“_Ty”到“DWORD”的指针截断
+          with
+          [
+              _Ty=HANDLE
+          ]
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\SetWindowHookExHelper.hpp(103,104): warning C4302: “类型强制转换”: 从“_Ty”到“DWORD”截断
+          with
+          [
+              _Ty=HANDLE
+          ]
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\APCInjectHelper.hpp(107,61): warning C4267: “=”: 从“size_t”转换到“ULONG”，可能丢失数据
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\APCInjectHelper.hpp(141,3): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\HijackEip.hpp(129,125): warning C4267: “参数”: 从“size_t”转换到“ULONG”，可能丢失数据
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\注入(作业)\_tmain.cpp(18,1): warning C4326: “wmain”的返回类型应为“int”而非“void”
+  正在生成代码...
+  注入(作业).vcxproj -> D:\Users\86173\Desktop\注入（作业）\注入(作业)\x64\Debug\Injcetor.exe

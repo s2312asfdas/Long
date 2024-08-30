@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="远程线程">
+      <UniqueIdentifier>{9ce7c802-c7c4-4194-b161-a77bcec01eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="注册表">
+      <UniqueIdentifier>{59681a71-7428-4971-8c96-dbfe50595d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SetWindowHookEx">
+      <UniqueIdentifier>{f78cc193-1cd0-4cb5-8373-17cb5a05252b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="APC注入">
+      <UniqueIdentifier>{dbdf5b7b-7909-4a16-a08e-e92f340f9225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="劫持EIP">
+      <UniqueIdentifier>{abe08470-fcc0-4d66-8e71-983d254a0b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="帮助">
+      <UniqueIdentifier>{20272444-5860-4c91-af5b-be8a63006409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="帮助\系统帮助">
+      <UniqueIdentifier>{1d09485b-9ce8-48ec-8514-0dab35cc3df8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="帮助\内存帮助">
+      <UniqueIdentifier>{dd446d30-1734-47fb-b18a-1b1b5727556a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="帮助\字符串帮助">
+      <UniqueIdentifier>{7b477aee-d515-4c82-8baa-46d5af2cad96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="帮助\错误帮助">
+      <UniqueIdentifier>{37fd3d17-d32a-4ae5-8f8d-23b14d3c3200}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="帮助\进程帮助">
+      <UniqueIdentifier>{bbd4c4c1-5b07-4bff-81b3-444f8c6d14b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="帮助\对象帮助">
+      <UniqueIdentifier>{76466fc2-661d-4a47-969b-b8627bf2b873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="帮助\文件帮助">
+      <UniqueIdentifier>{08c2466d-6901-45b4-95cf-858851888b49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="帮助\线程帮助">
+      <UniqueIdentifier>{2246099c-ccc4-4170-b1e8-e5a3b0321d58}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_tmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemHelper.cpp">
+      <Filter>帮助\系统帮助</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryHelper.cpp">
+      <Filter>帮助\内存帮助</Filter>
+    </ClCompile>
+    <ClCompile Include="StringHelper.cpp">
+      <Filter>帮助\字符串帮助</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHelper.cpp">
+      <Filter>帮助\错误帮助</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHelper.cpp">
+      <Filter>帮助\进程帮助</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectHelper.cpp">
+      <Filter>帮助\对象帮助</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHelper.cpp">
+      <Filter>帮助\文件帮助</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadHelper.cpp">
+      <Filter>帮助\线程帮助</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CreatRemoteThread.hpp">
+      <Filter>远程线程</Filter>
+    </ClInclude>
+    <ClInclude Include="Registry.hpp">
+      <Filter>注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWindowHookEx.hpp">
+      <Filter>SetWindowHookEx</Filter>
+    </ClInclude>
+    <ClInclude Include="APCInject.hpp">
+      <Filter>APC注入</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryHelper.hpp">
+      <Filter>注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateRemoteThreadHelper.hpp">
+      <Filter>远程线程</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemHelper.h">
+      <Filter>帮助\系统帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryHelper.h">
+      <Filter>帮助\内存帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="StringHelper.h">
+      <Filter>帮助\字符串帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHelper.h">
+      <Filter>帮助\错误帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorHelperEx.h">
+      <Filter>帮助\错误帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHelper.h">
+      <Filter>帮助\进程帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectHelper.h">
+      <Filter>帮助\对象帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHelper.h">
+      <Filter>帮助\文件帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="SetWindowHookExHelper.hpp">
+      <Filter>SetWindowHookEx</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadHelper.h">
+      <Filter>帮助\线程帮助</Filter>
+    </ClInclude>
+    <ClInclude Include="APCInjectHelper.hpp">
+      <Filter>APC注入</Filter>
+    </ClInclude>
+    <ClInclude Include="HijackEip.hpp">
+      <Filter>劫持EIP</Filter>
+    </ClInclude>
+    <ClInclude Include="HijackEipHelper.hpp">
+      <Filter>劫持EIP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

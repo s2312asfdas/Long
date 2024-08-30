@@ -1,0 +1,14 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Dll.dll.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  pch.cpp
+  dllmain.cpp
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\Dll.dll\dllmain.cpp(16,58): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\Dll.dll\dllmain.cpp(37,18): warning C4477: “_swprintf”: 格式字符串“%p”需要类型“void *”的参数，但可变参数 1 拥有了类型“HINSTANCE__”
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\Dll.dll\dllmain.cpp(37,4): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\Dll.dll\dllmain.cpp(55,56): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“HANDLE”
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\Dll.dll\dllmain.cpp(59,16): warning C4477: “_swprintf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“HANDLE”
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\Dll.dll\dllmain.cpp(59,16): warning C4313: "_swprintf": 格式字符串中的 "%d" 与类型为 "HANDLE" 的参数 1 冲突
+D:\Users\86173\Desktop\注入（作业）\注入(作业)\Dll.dll\dllmain.cpp(59,2): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  MemoryHelper.cpp
+  正在生成代码...
+    正在创建库 D:\Users\86173\Desktop\注入（作业）\注入(作业)\x64\Debug\Dll.lib 和对象 D:\Users\86173\Desktop\注入（作业）\注入(作业)\x64\Debug\Dll.exp
+  Dll.dll.vcxproj -> D:\Users\86173\Desktop\注入（作业）\注入(作业)\x64\Debug\Dll.dll
